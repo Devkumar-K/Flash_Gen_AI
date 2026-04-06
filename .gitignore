@@ -1,0 +1,26 @@
+# Environment variables (contains local config)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ChromaDB persistent storage
+chroma_db/
+
+# Uploaded files
+uploads/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+temp_out.txt
